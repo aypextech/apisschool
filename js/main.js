@@ -113,6 +113,29 @@
         });
       });
     }
+    // Lightbox con marco ornamental
+    var lb = document.getElementById('lightbox');
+    if (lb) {
+      var lbImg = document.getElementById('lbImg'), lbCount = document.getElementById('lbCount');
+      var order = [], pos = 0;
+      function visible() { return Array.prototype.filter.call(grid.querySelectorAll('.gitem'), function (g) { return g.style.display !== 'none'; }); }
+      function show() { var im = order[pos].querySelector('img'); lbImg.src = im.src; lbImg.alt = im.alt; lbCount.textContent = (pos + 1) + ' / ' + order.length; }
+      function openAt(fig) { order = visible(); pos = order.indexOf(fig); if (pos < 0) pos = 0; show(); lb.hidden = false; document.body.style.overflow = 'hidden'; }
+      function nav(d) { pos = (pos + d + order.length) % order.length; show(); }
+      function close() { lb.hidden = true; document.body.style.overflow = ''; }
+      grid.addEventListener('click', function (e) { var fig = e.target.closest('.gitem'); if (fig) openAt(fig); });
+      document.getElementById('lbPrev').addEventListener('click', function () { nav(-1); });
+      document.getElementById('lbNext').addEventListener('click', function () { nav(1); });
+      document.getElementById('lbClose').addEventListener('click', close);
+      document.getElementById('lbBackdrop').addEventListener('click', close);
+      document.addEventListener('keydown', function (e) {
+        if (lb.hidden) return;
+        if (e.key === 'Escape') close();
+        else if (e.key === 'ArrowLeft') nav(-1);
+        else if (e.key === 'ArrowRight') nav(1);
+      });
+    }
+
     // Re-aplicar i18n para traducir los tabs recién creados
     if (window.APIS_setLang) { try { window.APIS_setLang(localStorage.getItem('apis_lang') || 'en'); } catch (e) {} }
   })();
