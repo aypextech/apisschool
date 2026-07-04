@@ -392,7 +392,8 @@ body.th h1,body.th h2,body.th h3,body.th h4,body.th .brand-txt b,body.th .motto,
    ✦ Premium polish — glass, opacidades, micro-interacciones
    ============================================================ */
 /* Entrada suave de toda la página */
-@keyframes pageIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+/* pageIn solo opacidad — un transform en <body> rompe position:fixed del header */
+@keyframes pageIn{from{opacity:0}to{opacity:1}}
 body{animation:pageIn .7s ease both;}
 
 /* Botones: barrido de luz al hover + feedback al click */
@@ -404,7 +405,7 @@ body{animation:pageIn .7s ease both;}
 .btn.gold:hover{background-position:100% 50%;}
 
 /* Header glass más refinado al scrollear */
-#hdr.solid{background:rgba(9,20,44,.68);backdrop-filter:blur(18px) saturate(1.3);-webkit-backdrop-filter:blur(18px) saturate(1.3);border-bottom:1px solid rgba(255,255,255,.08);}
+#hdr.solid{background:rgba(11,28,60,.97);backdrop-filter:blur(14px) saturate(1.2);-webkit-backdrop-filter:blur(14px) saturate(1.2);border-bottom:1px solid rgba(255,255,255,.08);box-shadow:0 8px 30px rgba(0,0,0,.3);}
 
 /* Tarjetas: aro dorado translúcido + sombra más rica al hover */
 .vmm,.level,.act-card,.lead-card,.step,.vcard{transition:transform .4s cubic-bezier(.22,.61,.36,1),box-shadow .4s ease,border-color .4s ease;}
