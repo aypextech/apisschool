@@ -43,8 +43,10 @@
     // Estado global
     document.documentElement.setAttribute('lang', lang);
     document.body.classList.toggle('th', lang === 'th');
-    var toggle = document.getElementById('langToggle');
-    if (toggle) toggle.textContent = (lang === 'th') ? 'EN' : 'ไทย';
+    var flag = document.getElementById('langFlag'), code = document.getElementById('langCode');
+    if (flag) flag.textContent = (lang === 'th') ? '🇹🇭' : '🇺🇸';
+    if (code) code.textContent = (lang === 'th') ? 'TH' : 'EN';
+    document.querySelectorAll('.lang-opt').forEach(function (o) { o.classList.toggle('active', o.getAttribute('data-lang') === lang); });
   }
 
   function getLang() {
@@ -57,10 +59,15 @@
 
   // Init
   apply(getLang());
-  var toggle = document.getElementById('langToggle');
-  if (toggle) toggle.addEventListener('click', function () {
-    setLang(getLang() === 'th' ? 'en' : 'th');
-  });
+  var sel = document.getElementById('langSelect');
+  var cur = document.getElementById('langCurrent');
+  if (sel && cur) {
+    cur.addEventListener('click', function (e) { e.stopPropagation(); var open = sel.classList.toggle('open'); cur.setAttribute('aria-expanded', open ? 'true' : 'false'); });
+    sel.querySelectorAll('.lang-opt').forEach(function (o) {
+      o.addEventListener('click', function () { setLang(o.getAttribute('data-lang')); sel.classList.remove('open'); cur.setAttribute('aria-expanded', 'false'); });
+    });
+    document.addEventListener('click', function (e) { if (!sel.contains(e.target)) { sel.classList.remove('open'); cur.setAttribute('aria-expanded', 'false'); } });
+  }
 
   window.APIS_setLang = setLang;
 })();

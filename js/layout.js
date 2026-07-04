@@ -33,7 +33,13 @@
         '<a href="gallery.html" data-page="gallery.html" data-i18n="nav.gallery">Gallery</a>' +
         '<a href="calendar.html" data-page="calendar.html" data-i18n="nav.calendar">School Calendar</a>' +
         '<a href="contact.html" data-page="contact.html" data-i18n="nav.contact">Contact Us</a>' +
-        '<button class="lang-toggle" id="langToggle" aria-label="Language">ไทย</button>' +
+        '<div class="lang-select" id="langSelect">' +
+          '<button class="lang-current" id="langCurrent" aria-haspopup="listbox" aria-expanded="false"><span class="flag" id="langFlag">🇺🇸</span><span id="langCode">EN</span><span class="caret">▾</span></button>' +
+          '<div class="lang-menu" role="listbox">' +
+            '<button class="lang-opt" data-lang="en" role="option"><span class="flag">🇺🇸</span><span>English</span></button>' +
+            '<button class="lang-opt" data-lang="th" role="option"><span class="flag">🇹🇭</span><span>ไทย</span></button>' +
+          '</div>' +
+        '</div>' +
         '<a href="https://admission.apis-kk.com" target="_blank" rel="noopener" class="btn gold sm" data-i18n="btn.tour">Schedule a Tour</a>' +
       '</nav>' +
       '<button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>' +

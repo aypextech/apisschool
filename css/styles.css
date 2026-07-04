@@ -46,6 +46,19 @@ a{color:inherit;text-decoration:none;}
 /* Toggle de idioma */
 .lang-toggle{background:transparent;border:1px solid rgba(255,255,255,.5);color:#fff;font-family:var(--sans);font-size:11px;letter-spacing:1.5px;padding:7px 12px;border-radius:20px;cursor:pointer;transition:.3s;min-width:48px;}
 .lang-toggle:hover{background:var(--gold);border-color:var(--gold);color:var(--navy-deep);}
+/* Selector de idioma con banderas + dropdown */
+.lang-select{position:relative;}
+.lang-current{display:flex;align-items:center;gap:7px;background:transparent;border:1px solid rgba(255,255,255,.32);color:#fff;font-family:var(--sans);font-size:12px;font-weight:500;letter-spacing:1px;padding:7px 12px;border-radius:22px;cursor:pointer;transition:.3s;}
+.lang-current:hover{border-color:var(--gold-lt);}
+.lang-current .flag{font-size:15px;line-height:1;}
+.lang-current .caret{font-size:10px;opacity:.7;transition:transform .3s;}
+.lang-select.open .lang-current .caret{transform:rotate(180deg);}
+.lang-menu{position:absolute;top:calc(100% + 8px);right:0;min-width:156px;background:rgba(10,28,60,.97);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:6px;display:flex;flex-direction:column;gap:2px;opacity:0;visibility:hidden;transform:translateY(6px);transition:.25s;box-shadow:0 18px 40px rgba(0,0,0,.4);z-index:95;}
+.lang-select.open .lang-menu{opacity:1;visibility:visible;transform:none;}
+.lang-opt{display:flex;align-items:center;gap:10px;padding:9px 12px;border:none;background:none;color:rgba(255,255,255,.85);font-family:var(--sans);font-size:13px;cursor:pointer;border-radius:8px;text-align:left;transition:.2s;width:100%;}
+.lang-opt .flag{font-size:17px;line-height:1;}
+.lang-opt:hover{background:rgba(255,255,255,.08);color:var(--gold-lt);}
+.lang-opt.active{color:var(--gold-lt);}
 /* Dropdown Academics */
 .has-sub{position:relative;}
 .sub-toggle{cursor:pointer;}
@@ -361,7 +374,9 @@ body.th h1,body.th h2,body.th h3,body.th h4,body.th .brand-txt b,body.th .motto,
   .submenu{position:static;transform:none;opacity:1;visibility:hidden;height:0;overflow:hidden;padding:0;min-width:0;background:transparent;border:none;box-shadow:none;backdrop-filter:none;gap:0;}
   .has-sub.open .submenu{visibility:visible;height:auto;padding:6px 0 2px;}
   .submenu a{font-size:15px;color:rgba(255,255,255,.7);}
-  .lang-toggle{margin-top:6px;}
+  .lang-toggle,.lang-select{margin-top:6px;}
+  .lang-menu{right:auto;left:50%;transform:translateX(-50%) translateY(6px);}
+  .lang-select.open .lang-menu{transform:translateX(-50%);}
 }
 @media(max-width:560px){
   .block{padding:66px 0;}
