@@ -157,6 +157,7 @@ window.APIS_I18N = {
     /* ---- GALLERY ---- */
     "gal.metaTitle": "Gallery — American Prime International School",
     "gal.h1": "Gallery", "gal.heroSub": "Moments from our classrooms, library, fields and adventures.",
+    "gal.fAll": "All", "gal.fUniform": "Uniform", "gal.fActivities": "Activities", "gal.fClassroom": "Classroom", "gal.fMusic": "Music", "gal.fSport": "Sport",
 
     /* ---- CONTACT ---- */
     "con.metaTitle": "Contact Us — American Prime International School",
@@ -318,6 +319,7 @@ window.APIS_I18N = {
     /* ---- แกลเลอรี ---- */
     "gal.metaTitle": "แกลเลอรี — American Prime International School",
     "gal.h1": "แกลเลอรี", "gal.heroSub": "ช่วงเวลาจากห้องเรียน ห้องสมุด สนาม และการผจญภัยของเรา",
+    "gal.fAll": "ทั้งหมด", "gal.fUniform": "เครื่องแบบ", "gal.fActivities": "กิจกรรม", "gal.fClassroom": "ห้องเรียน", "gal.fMusic": "ดนตรี", "gal.fSport": "กีฬา",
 
     /* ---- ติดต่อ ---- */
     "con.metaTitle": "ติดต่อเรา — American Prime International School",

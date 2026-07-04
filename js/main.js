@@ -88,6 +88,35 @@
     counts.forEach(function (el) { cio.observe(el); });
   }
 
+  /* Galería dinámica con filtros por categoría (117 fotos) */
+  (function () {
+    var grid = document.getElementById('galGridDyn');
+    if (!grid || !window.APIS_GALLERY) return;
+    var frag = document.createDocumentFragment();
+    window.APIS_GALLERY.forEach(function (it) {
+      var fig = document.createElement('figure');
+      fig.className = 'gitem'; fig.setAttribute('data-cat', it.cat);
+      var img = document.createElement('img');
+      img.loading = 'lazy'; img.decoding = 'async'; img.src = it.src; img.alt = 'APIS ' + it.cat;
+      fig.appendChild(img); frag.appendChild(fig);
+    });
+    grid.appendChild(frag);
+    var tabs = document.getElementById('galFilter');
+    if (tabs) {
+      tabs.addEventListener('click', function (e) {
+        var b = e.target.closest('.gal-tab'); if (!b) return;
+        tabs.querySelectorAll('.gal-tab').forEach(function (t) { t.classList.remove('active'); });
+        b.classList.add('active');
+        var f = b.getAttribute('data-filter');
+        grid.querySelectorAll('.gitem').forEach(function (g) {
+          g.style.display = (f === 'all' || g.getAttribute('data-cat') === f) ? '' : 'none';
+        });
+      });
+    }
+    // Re-aplicar i18n para traducir los tabs recién creados
+    if (window.APIS_setLang) { try { window.APIS_setLang(localStorage.getItem('apis_lang') || 'en'); } catch (e) {} }
+  })();
+
   /* Cursor glow (desktop, puntero fino) */
   var glow = document.querySelector('.cursor-glow');
   if (glow && window.matchMedia('(pointer:fine)').matches) {

@@ -157,6 +157,12 @@ a{color:inherit;text-decoration:none;}
 
 /* Gallery */
 .gal-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:210px;gap:16px;margin-top:44px;}
+/* Filtros de la galería por categoría */
+.gal-filter{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:6px;}
+.gal-tab{font-family:var(--sans);font-size:13px;letter-spacing:.5px;padding:9px 20px;border-radius:30px;border:1px solid var(--line);background:#fff;color:var(--muted);cursor:pointer;transition:.25s;}
+.gal-tab:hover{border-color:var(--gold);color:var(--ink);}
+.gal-tab.active{background:linear-gradient(135deg,var(--gold-lt),var(--gold-dk));border-color:var(--gold);color:var(--navy-deep);font-weight:600;}
+.gal-grid-dyn{margin-top:34px;}
 .gitem{position:relative;overflow:hidden;border-radius:16px;box-shadow:var(--shadow);}
 .gitem img{width:100%;height:100%;object-fit:cover;transition:transform .8s ease;}
 .gitem::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(15,39,82,.5));opacity:0;transition:opacity .4s;}
@@ -383,11 +389,16 @@ body.th h1,body.th h2,body.th h3,body.th h4,body.th .brand-txt b,body.th .motto,
   .block{padding:66px 0;}
   .card-grid,.card-grid.light{grid-template-columns:1fr;}
   .g-tall{grid-row:span 1;}
-  .hero-in{padding-top:120px;}
+  .hero-in{padding:116px 18px 60px;}
+  .hero-scroll{display:none;}            /* saca el ícono del mouse en mobile */
+  .hero-dots{bottom:18px;}
+  .seal-lg{width:clamp(150px,44vw,178px);height:clamp(150px,44vw,178px);}
   .slo-grid{grid-template-columns:1fr;}
   .fac-grid,.fac-grid.support{grid-template-columns:1fr;}
   .steps{grid-template-columns:1fr;}
 }
+/* En tablet también ocultamos el mouse para que no choque con los botones */
+@media(max-width:900px){ .hero-scroll{display:none;} }
 /* ============================================================
    ✦ Premium polish — glass, opacidades, micro-interacciones
    ============================================================ */

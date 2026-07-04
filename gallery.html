@@ -23,23 +23,20 @@
 
 <section class="block">
   <span class="orb orb-b" aria-hidden="true"></span>
-  <div class="wrap gal-grid">
-    <figure class="gitem reveal g-tall"><img src="assets/IMG_5615.jpg" alt="Student with a telescope"></figure>
-    <figure class="gitem reveal"><img src="assets/LINE_ALBUM_Pixs-for-Website-and-Marketing_250127_15.jpg" alt="Students reading"></figure>
-    <figure class="gitem reveal"><img src="assets/IMG_5499.jpg" alt="Taekwondo"></figure>
-    <figure class="gitem reveal"><img src="assets/activities/act8.jpeg" alt="Swimming"></figure>
-    <figure class="gitem reveal g-wide"><img src="assets/IMG_5500.jpg" alt="Physical activity"></figure>
-    <figure class="gitem reveal"><img src="assets/IMG_5616.jpg" alt="Art class"></figure>
-    <figure class="gitem reveal"><img src="assets/activities/act1.jpg" alt="Science experiment"></figure>
-    <figure class="gitem reveal"><img src="assets/IMG_5537.jpg" alt="Golf"></figure>
-    <figure class="gitem reveal g-wide"><img src="assets/activities/act12.jpeg" alt="Activity at APIS"></figure>
-    <figure class="gitem reveal"><img src="assets/activities/act4.jpeg" alt="Activity at APIS"></figure>
-    <figure class="gitem reveal"><img src="assets/activities/act6.jpeg" alt="Activity at APIS"></figure>
-    <figure class="gitem reveal"><img src="assets/activities/act9.jpeg" alt="Activity at APIS"></figure>
+  <div class="wrap">
+    <div class="gal-filter" id="galFilter">
+      <button class="gal-tab active" data-filter="all" data-i18n="gal.fAll">All</button>
+      <button class="gal-tab" data-filter="uniform" data-i18n="gal.fUniform">Uniform</button>
+      <button class="gal-tab" data-filter="activities" data-i18n="gal.fActivities">Activities</button>
+      <button class="gal-tab" data-filter="classroom" data-i18n="gal.fClassroom">Classroom</button>
+      <button class="gal-tab" data-filter="music" data-i18n="gal.fMusic">Music</button>
+      <button class="gal-tab" data-filter="sport" data-i18n="gal.fSport">Sport</button>
+    </div>
+    <div class="gal-grid gal-grid-dyn" id="galGridDyn"></div>
   </div>
 </section>
 
 <footer id="ftr"></footer>
-<script src="js/content.js"></script><script src="js/layout.js"></script><script src="js/i18n.js"></script><script src="js/main.js"></script>
+<script src="js/content.js"></script><script src="js/gallery-data.js"></script><script src="js/layout.js"></script><script src="js/i18n.js"></script><script src="js/main.js"></script>
 </body>
 </html>
