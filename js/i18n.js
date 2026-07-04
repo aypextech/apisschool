@@ -44,7 +44,8 @@
     document.documentElement.setAttribute('lang', lang);
     document.body.classList.toggle('th', lang === 'th');
     var flag = document.getElementById('langFlag'), code = document.getElementById('langCode');
-    if (flag) flag.textContent = (lang === 'th') ? '🇹🇭' : '🇺🇸';
+    var opt = document.querySelector('.lang-opt[data-lang="' + lang + '"]');
+    if (flag && opt) { var f = opt.querySelector('.flag'); if (f) flag.innerHTML = f.innerHTML; }
     if (code) code.textContent = (lang === 'th') ? 'TH' : 'EN';
     document.querySelectorAll('.lang-opt').forEach(function (o) { o.classList.toggle('active', o.getAttribute('data-lang') === lang); });
   }

@@ -6,6 +6,9 @@
 (function () {
   'use strict';
   var LOGO = 'assets/logo-crest.png';
+  // Banderas en SVG (los emoji de bandera no renderizan en Windows)
+  var FLAG_US = '<svg viewBox="0 0 24 16" aria-hidden="true"><rect width="24" height="16" fill="#fff"/><g fill="#b22234"><rect width="24" height="1.23"/><rect y="2.46" width="24" height="1.23"/><rect y="4.92" width="24" height="1.23"/><rect y="7.38" width="24" height="1.23"/><rect y="9.85" width="24" height="1.23"/><rect y="12.31" width="24" height="1.23"/><rect y="14.77" width="24" height="1.23"/></g><rect width="10" height="8.6" fill="#3c3b6e"/></svg>';
+  var FLAG_TH = '<svg viewBox="0 0 24 16" aria-hidden="true"><rect width="24" height="16" fill="#f4f5f8"/><rect width="24" height="2.67" fill="#a51931"/><rect y="13.33" width="24" height="2.67" fill="#a51931"/><rect y="5.33" width="24" height="5.34" fill="#2d2a4a"/></svg>';
 
   // Página actual (para marcar el link activo)
   var file = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
@@ -34,10 +37,10 @@
         '<a href="calendar.html" data-page="calendar.html" data-i18n="nav.calendar">School Calendar</a>' +
         '<a href="contact.html" data-page="contact.html" data-i18n="nav.contact">Contact Us</a>' +
         '<div class="lang-select" id="langSelect">' +
-          '<button class="lang-current" id="langCurrent" aria-haspopup="listbox" aria-expanded="false"><span class="flag" id="langFlag">🇺🇸</span><span id="langCode">EN</span><span class="caret">▾</span></button>' +
+          '<button class="lang-current" id="langCurrent" aria-haspopup="listbox" aria-expanded="false"><span class="flag" id="langFlag">' + FLAG_US + '</span><span id="langCode">EN</span><span class="caret">▾</span></button>' +
           '<div class="lang-menu" role="listbox">' +
-            '<button class="lang-opt" data-lang="en" role="option"><span class="flag">🇺🇸</span><span>English</span></button>' +
-            '<button class="lang-opt" data-lang="th" role="option"><span class="flag">🇹🇭</span><span>ไทย</span></button>' +
+            '<button class="lang-opt" data-lang="en" role="option"><span class="flag">' + FLAG_US + '</span><span>English</span></button>' +
+            '<button class="lang-opt" data-lang="th" role="option"><span class="flag">' + FLAG_TH + '</span><span>ไทย</span></button>' +
           '</div>' +
         '</div>' +
         '<a href="https://admission.apis-kk.com" target="_blank" rel="noopener" class="btn gold sm" data-i18n="btn.tour">Schedule a Tour</a>' +
