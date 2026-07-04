@@ -1,0 +1,293 @@
+/* ============================================================
+   APIS — Contenido bilingüe (i18n). Editá SOLO este archivo para
+   cambiar cualquier texto del sitio. Estructura: APIS_I18N[lang][clave]
+   Idiomas: en (English) · th (ไทย). TH: traducción asistida, revisar
+   con un hablante nativo antes de publicar.
+   ============================================================ */
+window.APIS_I18N = {
+  en: {
+    /* ---- Marca / navegación ---- */
+    "brand.name": "American Prime", "brand.sub": "International School",
+    "nav.home": "Home", "nav.about": "About Us", "nav.academics": "Academics",
+    "nav.learning": "Learning Support", "nav.activities": "Activities", "nav.admissions": "Admissions",
+    "nav.calendar": "School Calendar", "nav.faculty": "Faculty & Staff", "nav.gallery": "Gallery", "nav.contact": "Contact Us",
+    "btn.tour": "Schedule a Tour", "btn.enroll": "Enroll Today at APIS", "btn.apply": "Apply Now",
+    "btn.explore": "Explore Academics →", "btn.call": "Call 098-974-2333", "btn.portal": "Open the Admissions Portal",
+    "btn.more": "Learn more →",
+    "motto": "“Achieving Excellence, Embracing Responsibility”",
+
+    /* ---- Footer ---- */
+    "foot.tagline": "Empowering future global citizens in the heart of Khon Kaen.",
+    "foot.explore": "Explore", "foot.contact": "Get in Touch", "foot.loc": "Ban Ped, Mueang, Khon Kaen",
+    "foot.rights": "© American Prime International School · Khon Kaen 2026", "foot.demo": "Concept redesign",
+
+    /* ---- HOME ---- */
+    "home.metaTitle": "American Prime International School — Khon Kaen",
+    "hero.eyebrow": "American Prime International School · Khon Kaen",
+    "hero.h1a": "Empowering Future", "hero.h1b": "Global Citizens",
+    "hero.sub": "A U.S.-curriculum international school in the heart of Khon Kaen — teaching the California Common Core State Standards from Pre-Kindergarten through Grade 12.",
+    "p1.t": "U.S. Curriculum", "p1.s": "California Common Core Standards",
+    "p2.t": "Pre-K – Grade 12", "p2.s": "A full learning journey",
+    "p3.t": "English Fluency", "p3.s": "A truly global mindset",
+    "p4.t": "Modern Learning", "p4.s": "Technology & E-Learning integrated",
+    "home.aboutEyebrow": "Welcome to APIS",
+    "home.aboutH2": "A Vision for Lifelong Learning & Global Citizenship",
+    "home.aboutP1": "American Prime International School is becoming Khon Kaen's home for world-class education. Adopting the California Common Core Standards, we blend modern assessment, technology and E-Learning with a warm, inclusive community.",
+    "home.aboutP2": "Our students grow into analytical thinkers, confident communicators and responsible global citizens — committed to learning for life.",
+    "home.aboutLink": "Read our full story →",
+    "vision.t": "Vision", "vision.p": "To excel in education — developing analytical thinkers, effective communicators and responsible global citizens dedicated to lifelong learning, in balance of body and mind.",
+    "mission.t": "Mission", "mission.p": "To provide a safe, supportive environment where every student builds communication and analytical skills, and grows into a responsible citizen conscious of social and environmental duties.",
+    "mottoc.t": "Motto",
+    "outcomes.eyebrow": "Schoolwide Learner Outcomes", "outcomes.h2": "The Five Marks of an APIS Graduate",
+    "outcomes.lead": "Every lesson, activity and relationship at APIS is designed to grow these five qualities in your child.",
+    "slo1.t": "Effective Communicators", "slo1.p": "Express thoughts clearly across languages and tools, and collaborate creatively while respecting differences.",
+    "slo2.t": "Critical Thinkers", "slo2.p": "Analyze information systematically to solve problems, make informed decisions and think creatively.",
+    "slo3.t": "Responsible Global Citizens", "slo3.p": "Act with awareness of social and environmental duties, adapting thoughtfully to a changing world.",
+    "slo4.t": "Self-Directed Learners", "slo4.p": "Set their own goals and manage time and resources for continuous, lifelong learning.",
+    "slo5.t": "Healthy & Balanced", "slo5.p": "Care for physical and mental well-being, balancing academics, activities and rest.",
+    "home.acadEyebrow": "Academics", "home.acadH2": "An American Education, Rooted in Khon Kaen",
+    "home.acadLead": "A continuous learning journey aligned to Schoolwide Learner Outcomes — so progress is clear, personal and celebrated at every stage.",
+    "level1.tag": "Ages 3–5", "level1.t": "Kindergarten", "level1.p": "Play-based learning, language development, social skills and joyful exploration in a safe, loving environment with small classes and personalized attention.",
+    "level2.tag": "Grades 1–6", "level2.t": "Primary", "level2.p": "Core subjects strengthened by project-based learning, bilingual support and digital literacy — building confident, curious young scholars.",
+    "level3.tag": "Grades 7–12", "level3.t": "Secondary", "level3.p": "Rigorous academics with leadership, global citizenship and university preparation for students ready to take on the world.",
+    "curric.title": "Our Curriculum",
+    "core.t": "Core Subjects", "core.p": "English, Math, Science and Social Studies — the academic rigor to succeed in a global environment.",
+    "arts.t": "Arts & Expression", "arts.p": "Art, Music and Performing Arts that build confidence, imagination and cultural appreciation.",
+    "global.t": "Global & Future Skills", "global.p": "Digital literacy, coding, global perspectives and moral education for tomorrow's leaders.",
+    "stat1.l": "% U.S. Curriculum", "stat2.l": "Grade levels (Pre-K–12)", "stat3.l": "Dedicated faculty & staff", "stat4.l": "Learning support for all",
+    "home.galEyebrow": "Life at APIS", "home.galH2": "Where Imaginations Bloom",
+    "home.galLead": "Tiny hands crafting big dreams — moments from our classrooms, library, fields and adventures.",
+    "cta.eyebrow": "Admissions Open · 2025–2026", "cta.h2": "Inspire Their Future at APIS",
+    "cta.sub": "Book a personal campus tour and see how your child can flourish with us in Khon Kaen.",
+
+    /* ---- ABOUT ---- */
+    "about.metaTitle": "About Us — American Prime International School",
+    "about.h1": "About APIS", "about.heroSub": "Our story, our vision, and the graduate we help your child become.",
+    "about.storyEyebrow": "Our Story", "about.storyH2": "From a Local School to an International Home for Learning",
+    "about.storyP1": "Founded through the vision of Ms. Thanatchapaphat Wattanahirunchanachai (Licensee) and Mr. Noppanat Wattanahirunwong (School Manager), APIS transitioned from a general-education school into a full international school — adopting the California Common Core State Standards of the U.S. Department of Education.",
+    "about.storyP2": "Educational management spans Pre-Kindergarten through Grade 12, with clear structures, principles and assessment criteria, and technology and E-Learning woven through every classroom.",
+    "about.storyP3": "We nurture a balance between physical and mental well-being, so every child grows healthy, happy and ready for the world.",
+
+    /* ---- ACADEMICS ---- */
+    "acad.metaTitle": "Academics — American Prime International School",
+    "acad.h1": "Academics", "acad.heroSub": "An American education, rooted in Khon Kaen — clear, personal and celebrated at every stage.",
+    "acad.approachEyebrow": "Our Approach", "acad.approachH2": "Aligned to Schoolwide Learner Outcomes",
+    "acad.approachP": "From Pre-K through Grade 12, our U.S.-based program blends modern assessment, technology and E-Learning. Progress is measured against clear Schoolwide Learner Outcomes so every child's growth is visible and celebrated.",
+
+    /* ---- LEARNING SUPPORT ---- */
+    "ls.metaTitle": "Learning Support — American Prime International School",
+    "ls.h1": "Learning Support", "ls.heroSub": "Nurturing every child's academic and personal growth.",
+    "ls.introEyebrow": "Every Child Matters", "ls.introH2": "Support That Meets Each Learner",
+    "ls.introP": "We believe every child learns differently. Our learning support surrounds each student with the guidance, encouragement and structure they need to thrive — academically, emotionally and socially.",
+    "ls.counsel.t": "Counseling Program", "ls.counsel.p": "Emotional, academic and social support — focusing on well-being, conflict resolution and personal growth in a confidential, caring environment.",
+    "ls.progTitle": "Enrichment & Movement",
+    "ls.gym.t": "Gymnastics", "ls.gym.p": "Develops flexibility, balance and strength.",
+    "ls.tkd.t": "Taekwondo", "ls.tkd.p": "Builds discipline, respect and physical control.",
+    "ls.swim.t": "Swimming", "ls.swim.p": "Water play becomes water confidence!",
+    "ls.flag.t": "Flag Football", "ls.flag.p": "Encourages agility, cooperation and active play.",
+    "ls.golf.t": "Golf", "ls.golf.p": "Teaches focus, patience and sportsmanship.",
+
+    /* ---- ACTIVITIES ---- */
+    "act.metaTitle": "Activities — American Prime International School",
+    "act.h1": "APIS Activities", "act.heroSub": "Where imaginations bloom and tiny hands craft big dreams.",
+    "act.introP": "At APIS, creativity is central — encouraging young learners to explore colors and techniques while imagining, building and shining each week.",
+    "act.catArts": "Creative Arts", "act.catPE": "Physical Education", "act.catSci": "Science",
+    "act.a1.t": "Mini Makers Studio", "act.a1.s": "Art & Craft Adventures", "act.a1.p": "Children transform ordinary materials into extraordinary creations — from leaf collages to hands-on crafts that build creativity, focus and self-expression.",
+    "act.a2.t": "Stage Stars in Motion", "act.a2.s": "Music & Dance Performances", "act.a2.p": "Lights, rhythm, action! With tambourines, maracas and scarves in hand, children move with music, explore beats and build confidence on stage.",
+    "act.a3.t": "Melody Makers", "act.a3.s": "Everyday Music & Rhythm Time", "act.a3.p": "From morning hello songs to goodbye jingles, music builds language, memory and joy through instruments, songs and musical storytelling.",
+    "act.a4.t": "Flip, Roll, Fly", "act.a4.s": "Foundations of Gymnastics", "act.a4.p": "Children learn body control, balance and coordination — from forward rolls to stretching like stars — building physical confidence and discipline.",
+    "act.a5.t": "Little Swingers", "act.a5.s": "Early Golf Skills", "act.a5.p": "With pint-sized clubs and colorful targets, young golfers practice precision, patience and focus in a relaxed setting.",
+    "act.a6.t": "Splash & Swim Stars", "act.a6.s": "Beginner Swimming", "act.a6.p": "Water play becomes water confidence! Students learn water safety, floating and beginner strokes in a child-friendly pool.",
+    "act.a7.t": "Power Move", "act.a7.s": "Taekwondo for Kids", "act.a7.p": "Beyond kicks, students learn respect, discipline and the power of peaceful strength, guided by certified instructors.",
+    "act.a8.t": "Flag Dash", "act.a8.s": "Flag Ball Fun", "act.a8.p": "A safe, fast-paced twist on team games — children run, chase, work in teams and follow rules, building agility and cooperation.",
+    "act.a9.t": "Tiny Testers", "act.a9.s": "Hands-on Science", "act.a9.p": "Mix it, watch it, wow! Age-appropriate experiments — from potions to simple circuits — spark curiosity and critical thinking.",
+
+    /* ---- ADMISSIONS ---- */
+    "adm.metaTitle": "Admissions — American Prime International School",
+    "adm.h1": "Admissions", "adm.heroSub": "We're excited to welcome your family to our school community.",
+    "adm.introP": "Below is everything you need to begin your child's learning journey at APIS. Our online application is fast, secure and convenient.",
+    "adm.step1.t": "1 · Apply Online", "adm.step1.p": "Complete the secure Google Form via the “Apply Now” portal with student and parent information.",
+    "adm.step2.t": "2 · Submit Documents", "adm.step2.p": "Send the required student and guardian documents (listed below). All documents must be clear and legible.",
+    "adm.step3.t": "3 · Schedule a Tour", "adm.step3.p": "Visit our campus, meet our team, and see your child's future classroom. Call 098-974-2333 to arrange.",
+    "adm.step4.t": "4 · Enroll", "adm.step4.p": "Confirm your child's place and join the APIS community. We'll guide you through every step.",
+    "adm.docsStudentT": "Student Documents",
+    "adm.docsStudent": "Birth certificate (copy)|Passport or National ID (copy)|House registration for Thai students (if available)|Immunization / vaccination record|Two recent ID photos (1–2 inch, front-facing)|Previous transcript or report card (if transferring)",
+    "adm.docsParentT": "Parent / Guardian Documents",
+    "adm.docsParent": "Passport or National ID (copy)|House registration for Thai citizens|Guardianship document (if applicable)",
+    "adm.noteT": "Please note", "adm.noteP": "Non-English documents may require official English or Thai translation. The school may request additional documents such as medical certificates or previous-school recommendations.",
+    "adm.grade": "Now enrolling Pre-K through Grade 5.",
+
+    /* ---- CALENDAR ---- */
+    "cal.metaTitle": "School Calendar — American Prime International School",
+    "cal.h1": "School Calendar", "cal.heroSub": "Stay up to date with important academic dates, events, holidays and term breaks.",
+    "cal.year": "Academic Year 2025–2026",
+    "cal.introP": "Our academic calendar keeps families informed of term dates, school events and holidays throughout the year. For the current term schedule and daily timings, please contact our office.",
+    "cal.ctaP": "Need specific dates? Our team is happy to help.",
+
+    /* ---- FACULTY ---- */
+    "fac.metaTitle": "Faculty & Staff — American Prime International School",
+    "fac.h1": "Faculty & Staff", "fac.heroSub": "A caring, qualified team from around the world — dedicated to every child's growth.",
+    "fac.leadTitle": "School Leadership", "fac.teachersTitle": "Homeroom & Specialist Teachers", "fac.supportTitle": "Support Team",
+    "role.rep": "Representative of the Licensee", "role.manager": "School Manager", "role.assoc": "Associate Manager",
+    "role.prekHome": "Pre-K Homeroom Teacher", "role.prekAsst": "Pre-K Teacher Assistant", "role.prekNanny": "Pre-K Nanny",
+    "role.k1Home": "Kindergarten 1 Homeroom Teacher", "role.k1Asst": "Kindergarten 1 Teacher Assistant",
+    "role.k2Home": "Kindergarten 2 Homeroom Teacher", "role.k2Asst": "Kindergarten 2 Teacher Assistant",
+    "role.k3Home": "Kindergarten 3 Homeroom Teacher", "role.g1Home": "Grade 1 Homeroom Teacher",
+    "role.thai": "Thai Language & Culture", "role.finance": "Finance", "role.comms": "School Communications",
+    "role.chef": "Chef", "role.house": "Housekeeper",
+
+    /* ---- GALLERY ---- */
+    "gal.metaTitle": "Gallery — American Prime International School",
+    "gal.h1": "Gallery", "gal.heroSub": "Moments from our classrooms, library, fields and adventures.",
+
+    /* ---- CONTACT ---- */
+    "con.metaTitle": "Contact Us — American Prime International School",
+    "con.h1": "Come See APIS in Person", "con.heroSub": "We'd love to meet your family. Reach out or schedule a visit.",
+    "con.campusT": "Campus", "con.campusP": "99/9 Moo 20, Ban Ped Subdistrict, Mueang District, Khon Kaen, Thailand",
+    "con.phoneT": "Phone", "con.emailT": "Email", "con.lineT": "LINE Official",
+    "con.socialsT": "Follow us"
+  },
+
+  th: {
+    /* ---- แบรนด์ / เมนู ---- */
+    "brand.name": "American Prime", "brand.sub": "โรงเรียนนานาชาติ",
+    "nav.home": "หน้าแรก", "nav.about": "เกี่ยวกับเรา", "nav.academics": "หลักสูตร",
+    "nav.learning": "การสนับสนุนการเรียนรู้", "nav.activities": "กิจกรรม", "nav.admissions": "การรับสมัคร",
+    "nav.calendar": "ปฏิทินโรงเรียน", "nav.faculty": "คณะครูและบุคลากร", "nav.gallery": "แกลเลอรี", "nav.contact": "ติดต่อเรา",
+    "btn.tour": "นัดเยี่ยมชมโรงเรียน", "btn.enroll": "สมัครเรียนที่ APIS", "btn.apply": "สมัครเลย",
+    "btn.explore": "ดูหลักสูตร →", "btn.call": "โทร 098-974-2333", "btn.portal": "เปิดระบบรับสมัคร",
+    "btn.more": "อ่านเพิ่มเติม →",
+    "motto": "“มุ่งสู่ความเป็นเลิศ ยึดมั่นความรับผิดชอบ”",
+
+    /* ---- ส่วนท้าย ---- */
+    "foot.tagline": "เสริมสร้างพลเมืองโลกแห่งอนาคต ใจกลางขอนแก่น",
+    "foot.explore": "สำรวจ", "foot.contact": "ติดต่อ", "foot.loc": "บ้านเป็ด เมือง ขอนแก่น",
+    "foot.rights": "© American Prime International School · ขอนแก่น 2026", "foot.demo": "ต้นแบบการออกแบบ",
+
+    /* ---- หน้าแรก ---- */
+    "home.metaTitle": "American Prime International School — ขอนแก่น",
+    "hero.eyebrow": "American Prime International School · ขอนแก่น",
+    "hero.h1a": "เสริมสร้างพลเมืองโลก", "hero.h1b": "แห่งอนาคต",
+    "hero.sub": "โรงเรียนนานาชาติหลักสูตรอเมริกันใจกลางขอนแก่น สอนตามมาตรฐาน California Common Core ตั้งแต่เตรียมอนุบาลจนถึงเกรด 12",
+    "p1.t": "หลักสูตรอเมริกัน", "p1.s": "มาตรฐาน California Common Core",
+    "p2.t": "เตรียมอนุบาล – เกรด 12", "p2.s": "เส้นทางการเรียนรู้ที่สมบูรณ์",
+    "p3.t": "คล่องภาษาอังกฤษ", "p3.s": "มุมมองความเป็นสากล",
+    "p4.t": "การเรียนรู้สมัยใหม่", "p4.s": "ผสานเทคโนโลยีและ E-Learning",
+    "home.aboutEyebrow": "ยินดีต้อนรับสู่ APIS",
+    "home.aboutH2": "วิสัยทัศน์เพื่อการเรียนรู้ตลอดชีวิตและความเป็นพลเมืองโลก",
+    "home.aboutP1": "American Prime International School กำลังเป็นบ้านแห่งการศึกษาระดับโลกของขอนแก่น เรานำมาตรฐาน California Common Core มาผสานการวัดผลสมัยใหม่ เทคโนโลยี และ E-Learning ในชุมชนที่อบอุ่นและเปิดกว้าง",
+    "home.aboutP2": "นักเรียนของเราเติบโตเป็นนักคิดวิเคราะห์ นักสื่อสารที่มั่นใจ และพลเมืองโลกที่มีความรับผิดชอบ พร้อมเรียนรู้ตลอดชีวิต",
+    "home.aboutLink": "อ่านเรื่องราวของเรา →",
+    "vision.t": "วิสัยทัศน์", "vision.p": "มุ่งสู่ความเป็นเลิศทางการศึกษา บ่มเพาะนักคิดวิเคราะห์ นักสื่อสารที่มีประสิทธิภาพ และพลเมืองโลกที่มีความรับผิดชอบ ใฝ่เรียนรู้ตลอดชีวิต สมดุลทั้งกายและใจ",
+    "mission.t": "พันธกิจ", "mission.p": "จัดสภาพแวดล้อมที่ปลอดภัยและเกื้อหนุน ให้นักเรียนทุกคนพัฒนาทักษะการสื่อสารและการคิดวิเคราะห์ และเติบโตเป็นพลเมืองที่ตระหนักถึงหน้าที่ต่อสังคมและสิ่งแวดล้อม",
+    "mottoc.t": "ปณิธาน",
+    "outcomes.eyebrow": "ผลลัพธ์ผู้เรียนของโรงเรียน", "outcomes.h2": "5 คุณลักษณะของบัณฑิต APIS",
+    "outcomes.lead": "ทุกบทเรียน กิจกรรม และความสัมพันธ์ที่ APIS ออกแบบมาเพื่อบ่มเพาะ 5 คุณลักษณะนี้ในตัวลูกของคุณ",
+    "slo1.t": "นักสื่อสารที่มีประสิทธิภาพ", "slo1.p": "สื่อสารความคิดได้ชัดเจนหลายภาษาและเครื่องมือ ทำงานร่วมกันอย่างสร้างสรรค์และเคารพความต่าง",
+    "slo2.t": "นักคิดเชิงวิพากษ์", "slo2.p": "วิเคราะห์ข้อมูลอย่างเป็นระบบเพื่อแก้ปัญหา ตัดสินใจอย่างมีข้อมูล และคิดอย่างสร้างสรรค์",
+    "slo3.t": "พลเมืองโลกที่รับผิดชอบ", "slo3.p": "กระทำด้วยความตระหนักถึงหน้าที่ต่อสังคมและสิ่งแวดล้อม ปรับตัวอย่างมีสติในโลกที่เปลี่ยนแปลง",
+    "slo4.t": "ผู้เรียนที่กำกับตนเอง", "slo4.p": "ตั้งเป้าหมายของตนเองและจัดการเวลาและทรัพยากรเพื่อการเรียนรู้อย่างต่อเนื่องตลอดชีวิต",
+    "slo5.t": "สุขภาพดีและสมดุล", "slo5.p": "ดูแลสุขภาพกายและใจ สมดุลระหว่างการเรียน กิจกรรม และการพักผ่อน",
+    "home.acadEyebrow": "หลักสูตร", "home.acadH2": "การศึกษาแบบอเมริกัน หยั่งรากในขอนแก่น",
+    "home.acadLead": "เส้นทางการเรียนรู้ต่อเนื่องที่สอดคล้องกับผลลัพธ์ผู้เรียน เพื่อให้เห็นพัฒนาการชัดเจนในทุกช่วงวัย",
+    "level1.tag": "อายุ 3–5 ปี", "level1.t": "อนุบาล", "level1.p": "เรียนรู้ผ่านการเล่น พัฒนาภาษา ทักษะสังคม และการสำรวจอย่างสนุกสนาน ในสภาพแวดล้อมที่ปลอดภัยและอบอุ่น ห้องเรียนขนาดเล็กดูแลใกล้ชิด",
+    "level2.tag": "เกรด 1–6", "level2.t": "ประถมศึกษา", "level2.p": "วิชาหลักเสริมด้วยการเรียนรู้แบบโครงงาน การสนับสนุนสองภาษา และทักษะดิจิทัล สร้างผู้เรียนที่มั่นใจและใฝ่รู้",
+    "level3.tag": "เกรด 7–12", "level3.t": "มัธยมศึกษา", "level3.p": "วิชาการเข้มข้น พร้อมภาวะผู้นำ ความเป็นพลเมืองโลก และการเตรียมเข้ามหาวิทยาลัย",
+    "curric.title": "หลักสูตรของเรา",
+    "core.t": "วิชาหลัก", "core.p": "ภาษาอังกฤษ คณิตศาสตร์ วิทยาศาสตร์ และสังคมศึกษา ความเข้มข้นทางวิชาการเพื่อความสำเร็จในระดับสากล",
+    "arts.t": "ศิลปะและการแสดงออก", "arts.p": "ศิลปะ ดนตรี และศิลปะการแสดง สร้างความมั่นใจ จินตนาการ และความซาบซึ้งทางวัฒนธรรม",
+    "global.t": "ทักษะสากลและอนาคต", "global.p": "ทักษะดิจิทัล การเขียนโค้ด มุมมองระดับโลก และคุณธรรมสำหรับผู้นำในวันข้างหน้า",
+    "stat1.l": "% หลักสูตรอเมริกัน", "stat2.l": "ระดับชั้น (เตรียมอนุบาล–12)", "stat3.l": "ครูและบุคลากรผู้ทุ่มเท", "stat4.l": "การสนับสนุนสำหรับทุกคน",
+    "home.galEyebrow": "ชีวิตที่ APIS", "home.galH2": "ที่ซึ่งจินตนาการเบ่งบาน",
+    "home.galLead": "มือน้อย ๆ สร้างความฝันอันยิ่งใหญ่ ช่วงเวลาจากห้องเรียน ห้องสมุด สนาม และการผจญภัย",
+    "cta.eyebrow": "เปิดรับสมัคร · 2025–2026", "cta.h2": "จุดประกายอนาคตของพวกเขาที่ APIS",
+    "cta.sub": "นัดเยี่ยมชมโรงเรียนแบบส่วนตัว แล้วมาดูว่าลูกของคุณจะเติบโตกับเราได้อย่างไรในขอนแก่น",
+
+    /* ---- เกี่ยวกับเรา ---- */
+    "about.metaTitle": "เกี่ยวกับเรา — American Prime International School",
+    "about.h1": "เกี่ยวกับ APIS", "about.heroSub": "เรื่องราว วิสัยทัศน์ และบัณฑิตที่เราช่วยบ่มเพาะลูกของคุณให้เป็น",
+    "about.storyEyebrow": "เรื่องราวของเรา", "about.storyH2": "จากโรงเรียนท้องถิ่นสู่บ้านแห่งการเรียนรู้ระดับนานาชาติ",
+    "about.storyP1": "ก่อตั้งด้วยวิสัยทัศน์ของคุณธนัชภพัฒน์ วัฒนหิรัญชนาชัย (ผู้รับใบอนุญาต) และคุณนพณัฐ วัฒนหิรัญวงศ์ (ผู้จัดการโรงเรียน) APIS ได้เปลี่ยนจากโรงเรียนสามัญสู่โรงเรียนนานาชาติเต็มรูปแบบ โดยใช้มาตรฐาน California Common Core ของกระทรวงศึกษาธิการสหรัฐอเมริกา",
+    "about.storyP2": "การจัดการศึกษาครอบคลุมตั้งแต่เตรียมอนุบาลจนถึงเกรด 12 ด้วยโครงสร้าง หลักการ และเกณฑ์การประเมินที่ชัดเจน พร้อมเทคโนโลยีและ E-Learning ในทุกห้องเรียน",
+    "about.storyP3": "เราบ่มเพาะความสมดุลของสุขภาพกายและใจ เพื่อให้เด็กทุกคนเติบโตอย่างแข็งแรง มีความสุข และพร้อมสำหรับโลกกว้าง",
+
+    /* ---- หลักสูตร ---- */
+    "acad.metaTitle": "หลักสูตร — American Prime International School",
+    "acad.h1": "หลักสูตร", "acad.heroSub": "การศึกษาแบบอเมริกันที่หยั่งรากในขอนแก่น ชัดเจนและมีความหมายในทุกช่วงวัย",
+    "acad.approachEyebrow": "แนวทางของเรา", "acad.approachH2": "สอดคล้องกับผลลัพธ์ผู้เรียนของโรงเรียน",
+    "acad.approachP": "ตั้งแต่เตรียมอนุบาลจนถึงเกรด 12 หลักสูตรอเมริกันของเราผสานการวัดผลสมัยใหม่ เทคโนโลยี และ E-Learning วัดพัฒนาการเทียบกับผลลัพธ์ผู้เรียนที่ชัดเจน เพื่อให้เห็นการเติบโตของเด็กทุกคน",
+
+    /* ---- การสนับสนุนการเรียนรู้ ---- */
+    "ls.metaTitle": "การสนับสนุนการเรียนรู้ — American Prime International School",
+    "ls.h1": "การสนับสนุนการเรียนรู้", "ls.heroSub": "บ่มเพาะการเติบโตทางวิชาการและส่วนบุคคลของเด็กทุกคน",
+    "ls.introEyebrow": "เด็กทุกคนสำคัญ", "ls.introH2": "การสนับสนุนที่เข้าถึงผู้เรียนแต่ละคน",
+    "ls.introP": "เราเชื่อว่าเด็กแต่ละคนเรียนรู้ต่างกัน การสนับสนุนของเราโอบล้อมนักเรียนแต่ละคนด้วยการชี้แนะ กำลังใจ และโครงสร้างที่จำเป็น เพื่อให้เติบโตทั้งด้านวิชาการ อารมณ์ และสังคม",
+    "ls.counsel.t": "โครงการให้คำปรึกษา", "ls.counsel.p": "การสนับสนุนด้านอารมณ์ วิชาการ และสังคม เน้นความเป็นอยู่ที่ดี การแก้ไขความขัดแย้ง และการเติบโตส่วนบุคคล ในบรรยากาศที่เป็นความลับและใส่ใจ",
+    "ls.progTitle": "กิจกรรมเสริมและการเคลื่อนไหว",
+    "ls.gym.t": "ยิมนาสติก", "ls.gym.p": "พัฒนาความยืดหยุ่น การทรงตัว และความแข็งแรง",
+    "ls.tkd.t": "เทควันโด", "ls.tkd.p": "สร้างวินัย ความเคารพ และการควบคุมร่างกาย",
+    "ls.swim.t": "ว่ายน้ำ", "ls.swim.p": "เปลี่ยนการเล่นน้ำให้เป็นความมั่นใจในน้ำ!",
+    "ls.flag.t": "แฟลกฟุตบอล", "ls.flag.p": "ส่งเสริมความคล่องแคล่ว ความร่วมมือ และการเล่นอย่างกระฉับกระเฉง",
+    "ls.golf.t": "กอล์ฟ", "ls.golf.p": "ฝึกสมาธิ ความอดทน และน้ำใจนักกีฬา",
+
+    /* ---- กิจกรรม ---- */
+    "act.metaTitle": "กิจกรรม — American Prime International School",
+    "act.h1": "กิจกรรม APIS", "act.heroSub": "ที่ซึ่งจินตนาการเบ่งบาน และมือน้อย ๆ สร้างความฝันอันยิ่งใหญ่",
+    "act.introP": "ที่ APIS ความคิดสร้างสรรค์คือหัวใจ ส่งเสริมให้ผู้เรียนตัวน้อยได้สำรวจสีสันและเทคนิค พร้อมจินตนาการ สร้างสรรค์ และเปล่งประกายในทุกสัปดาห์",
+    "act.catArts": "ศิลปะสร้างสรรค์", "act.catPE": "พลศึกษา", "act.catSci": "วิทยาศาสตร์",
+    "act.a1.t": "Mini Makers Studio", "act.a1.s": "การผจญภัยศิลปะและงานฝีมือ", "act.a1.p": "เด็ก ๆ เปลี่ยนวัสดุธรรมดาให้เป็นผลงานพิเศษ ตั้งแต่คอลลาจใบไม้จนถึงงานฝีมือ ที่เสริมความคิดสร้างสรรค์ สมาธิ และการแสดงออก",
+    "act.a2.t": "Stage Stars in Motion", "act.a2.s": "การแสดงดนตรีและการเต้น", "act.a2.p": "แสง จังหวะ แอ็คชั่น! ด้วยแทมบูรีน มาราคัส และผ้าพันคอ เด็ก ๆ เคลื่อนไหวไปกับดนตรี สำรวจจังหวะ และสร้างความมั่นใจบนเวที",
+    "act.a3.t": "Melody Makers", "act.a3.s": "ดนตรีและจังหวะประจำวัน", "act.a3.p": "ตั้งแต่เพลงทักทายยามเช้าจนถึงเพลงลาก่อน ดนตรีสร้างภาษา ความจำ และความสุข ผ่านเครื่องดนตรี บทเพลง และการเล่าเรื่องด้วยดนตรี",
+    "act.a4.t": "Flip, Roll, Fly", "act.a4.s": "พื้นฐานยิมนาสติก", "act.a4.p": "เด็ก ๆ เรียนรู้การควบคุมร่างกาย การทรงตัว และการประสานงาน ตั้งแต่การม้วนตัวจนถึงการยืดตัว สร้างความมั่นใจและวินัย",
+    "act.a5.t": "Little Swingers", "act.a5.s": "ทักษะกอล์ฟเบื้องต้น", "act.a5.p": "ด้วยไม้กอล์ฟจิ๋วและเป้าหมายสีสัน นักกอล์ฟตัวน้อยฝึกความแม่นยำ ความอดทน และสมาธิ ในบรรยากาศผ่อนคลาย",
+    "act.a6.t": "Splash & Swim Stars", "act.a6.s": "ว่ายน้ำสำหรับผู้เริ่มต้น", "act.a6.p": "เปลี่ยนการเล่นน้ำให้เป็นความมั่นใจ! นักเรียนเรียนรู้ความปลอดภัยในน้ำ การลอยตัว และท่าว่ายเบื้องต้นในสระที่เป็นมิตรกับเด็ก",
+    "act.a7.t": "Power Move", "act.a7.s": "เทควันโดสำหรับเด็ก", "act.a7.p": "มากกว่าการเตะ นักเรียนเรียนรู้ความเคารพ วินัย และพลังแห่งความสงบ ภายใต้การดูแลของผู้ฝึกสอนที่ได้รับการรับรอง",
+    "act.a8.t": "Flag Dash", "act.a8.s": "สนุกกับแฟลกบอล", "act.a8.p": "เกมทีมที่ปลอดภัยและรวดเร็ว เด็ก ๆ วิ่ง ไล่ ทำงานเป็นทีม และทำตามกติกา สร้างความคล่องแคล่วและความร่วมมือ",
+    "act.a9.t": "Tiny Testers", "act.a9.s": "วิทยาศาสตร์ลงมือทำ", "act.a9.p": "ผสม สังเกต ว้าว! การทดลองที่เหมาะกับวัย ตั้งแต่การผสมสารจนถึงวงจรไฟฟ้าอย่างง่าย จุดประกายความอยากรู้และการคิดวิเคราะห์",
+
+    /* ---- การรับสมัคร ---- */
+    "adm.metaTitle": "การรับสมัคร — American Prime International School",
+    "adm.h1": "การรับสมัคร", "adm.heroSub": "เรายินดีต้อนรับครอบครัวของคุณสู่ชุมชนโรงเรียนของเรา",
+    "adm.introP": "ด้านล่างคือทุกสิ่งที่คุณต้องรู้เพื่อเริ่มต้นเส้นทางการเรียนรู้ของลูกที่ APIS การสมัครออนไลน์ของเรารวดเร็ว ปลอดภัย และสะดวก",
+    "adm.step1.t": "1 · สมัครออนไลน์", "adm.step1.p": "กรอกแบบฟอร์ม Google ที่ปลอดภัยผ่านระบบ “สมัครเลย” พร้อมข้อมูลนักเรียนและผู้ปกครอง",
+    "adm.step2.t": "2 · ส่งเอกสาร", "adm.step2.p": "ส่งเอกสารนักเรียนและผู้ปกครองที่กำหนด (ด้านล่าง) เอกสารทุกฉบับต้องชัดเจนและอ่านได้",
+    "adm.step3.t": "3 · นัดเยี่ยมชม", "adm.step3.p": "เยี่ยมชมโรงเรียน พบทีมงาน และดูห้องเรียนในอนาคตของลูก โทร 098-974-2333 เพื่อนัดหมาย",
+    "adm.step4.t": "4 · ลงทะเบียน", "adm.step4.p": "ยืนยันที่นั่งของลูกและเข้าร่วมชุมชน APIS เราจะดูแลคุณในทุกขั้นตอน",
+    "adm.docsStudentT": "เอกสารนักเรียน",
+    "adm.docsStudent": "สูติบัตร (สำเนา)|หนังสือเดินทางหรือบัตรประชาชน (สำเนา)|ทะเบียนบ้านสำหรับนักเรียนไทย (ถ้ามี)|บันทึกการฉีดวัคซีน|รูปถ่ายล่าสุด 2 รูป (1–2 นิ้ว หน้าตรง)|ใบแสดงผลการเรียนเดิม (หากย้ายโรงเรียน)",
+    "adm.docsParentT": "เอกสารผู้ปกครอง",
+    "adm.docsParent": "หนังสือเดินทางหรือบัตรประชาชน (สำเนา)|ทะเบียนบ้านสำหรับคนไทย|เอกสารการปกครอง (ถ้ามี)",
+    "adm.noteT": "โปรดทราบ", "adm.noteP": "เอกสารที่ไม่ใช่ภาษาอังกฤษอาจต้องแปลเป็นภาษาอังกฤษหรือไทยอย่างเป็นทางการ โรงเรียนอาจขอเอกสารเพิ่มเติม เช่น ใบรับรองแพทย์หรือหนังสือรับรองจากโรงเรียนเดิม",
+    "adm.grade": "เปิดรับสมัครตั้งแต่เตรียมอนุบาลถึงเกรด 5",
+
+    /* ---- ปฏิทิน ---- */
+    "cal.metaTitle": "ปฏิทินโรงเรียน — American Prime International School",
+    "cal.h1": "ปฏิทินโรงเรียน", "cal.heroSub": "ติดตามวันสำคัญทางวิชาการ กิจกรรม วันหยุด และช่วงปิดเทอม",
+    "cal.year": "ปีการศึกษา 2025–2026",
+    "cal.introP": "ปฏิทินวิชาการของเราช่วยให้ครอบครัวทราบกำหนดการเปิดเทอม กิจกรรม และวันหยุดตลอดปี สำหรับกำหนดการเทอมปัจจุบันและเวลาเรียน กรุณาติดต่อสำนักงาน",
+    "cal.ctaP": "ต้องการวันที่แน่นอน? ทีมงานของเรายินดีช่วยเหลือ",
+
+    /* ---- คณะครู ---- */
+    "fac.metaTitle": "คณะครูและบุคลากร — American Prime International School",
+    "fac.h1": "คณะครูและบุคลากร", "fac.heroSub": "ทีมงานที่ใส่ใจและมีคุณวุฒิจากทั่วโลก ทุ่มเทเพื่อการเติบโตของเด็กทุกคน",
+    "fac.leadTitle": "ผู้บริหารโรงเรียน", "fac.teachersTitle": "ครูประจำชั้นและครูเฉพาะทาง", "fac.supportTitle": "ทีมสนับสนุน",
+    "role.rep": "ผู้แทนผู้รับใบอนุญาต", "role.manager": "ผู้จัดการโรงเรียน", "role.assoc": "ผู้ช่วยผู้จัดการ",
+    "role.prekHome": "ครูประจำชั้นเตรียมอนุบาล", "role.prekAsst": "ผู้ช่วยครูเตรียมอนุบาล", "role.prekNanny": "พี่เลี้ยงเตรียมอนุบาล",
+    "role.k1Home": "ครูประจำชั้นอนุบาล 1", "role.k1Asst": "ผู้ช่วยครูอนุบาล 1",
+    "role.k2Home": "ครูประจำชั้นอนุบาล 2", "role.k2Asst": "ผู้ช่วยครูอนุบาล 2",
+    "role.k3Home": "ครูประจำชั้นอนุบาล 3", "role.g1Home": "ครูประจำชั้นเกรด 1",
+    "role.thai": "ภาษาและวัฒนธรรมไทย", "role.finance": "การเงิน", "role.comms": "การสื่อสารโรงเรียน",
+    "role.chef": "แม่ครัว", "role.house": "แม่บ้าน",
+
+    /* ---- แกลเลอรี ---- */
+    "gal.metaTitle": "แกลเลอรี — American Prime International School",
+    "gal.h1": "แกลเลอรี", "gal.heroSub": "ช่วงเวลาจากห้องเรียน ห้องสมุด สนาม และการผจญภัยของเรา",
+
+    /* ---- ติดต่อ ---- */
+    "con.metaTitle": "ติดต่อเรา — American Prime International School",
+    "con.h1": "มาเยี่ยมชม APIS ด้วยตนเอง", "con.heroSub": "เรายินดีต้อนรับครอบครัวของคุณ ติดต่อหรือนัดเยี่ยมชมได้เลย",
+    "con.campusT": "ที่ตั้ง", "con.campusP": "99/9 หมู่ 20 ตำบลบ้านเป็ด อำเภอเมือง ขอนแก่น ประเทศไทย",
+    "con.phoneT": "โทรศัพท์", "con.emailT": "อีเมล", "con.lineT": "LINE ทางการ",
+    "con.socialsT": "ติดตามเรา"
+  }
+};
